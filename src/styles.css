@@ -1,0 +1,47 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #343434;
+}
+
+.container {
+  /* width: 15rem; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding-inline: 0.8rem;
+}
+
+.number-input {
+  width: 55%;
+  font-size: 1rem;
+  font-family: inherit;
+  margin-block: 1rem;
+  border-radius: 2rem;
+  padding: 0.9rem 1.5rem;
+  border: 1px solid gray;
+}
+
+.chat-button {
+  width: 25%;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #24CC62;
+  color: white;
+  padding: 0.9rem 1.2rem;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  cursor: pointer;
+}
